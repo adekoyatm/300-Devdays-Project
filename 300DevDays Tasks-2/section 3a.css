@@ -1,0 +1,97 @@
+*{box-sizing: border-box;}
+        body{
+            margin: 0px;
+        }
+
+        .row {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0px;
+            margin: 0px;
+        }
+
+        .column_left{
+            width: 50%;
+            background-image:url("section 3 assets/Image1.png");
+            background-repeat: no-repeat;
+            background-size:cover;            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .center-1{
+            margin-top: 8em;            
+            display: block            
+        }            
+              
+        
+        .center-1 h2{
+            margin-top: 5em;
+            padding: 2em;
+            color: white;
+            font-size: 2em;
+            font-family: sans-serif;
+            margin-bottom: 1em;
+            padding-bottom: 0em;            
+        }    
+            
+        .center-1 button{
+            margin-bottom: 3em;
+            margin-top: 0em;
+            margin-left: 5em;
+            padding: 1em;
+            border: none;
+            background-color: white;
+            color: black;
+            border-radius: 1em;
+            cursor: pointer;
+        }
+
+        
+        .column_right{
+            width: 50%;
+            background-color: white;
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;            
+        } 
+        
+        .center {
+            width: 50%;            
+            display: block;            
+        }     
+
+       .center h3{
+            color: black;
+            font-size: 2em;
+            font-family: sans-serif;
+        }
+
+        .center input {
+            width: 100%;
+        }
+
+        .center button {
+            width: 100%;
+            background-color: black;
+            color: white;
+            border: none;
+            padding: 0.5em;
+            border-radius: 0.5em;
+            cursor: pointer;
+        }        
+
+        .row:after{
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        @media only screen and (max-width: 600px) {
+            .row{display: block;}
+            .column_left {width: 100%;}
+            .column_right {width: 100%}
+        }
