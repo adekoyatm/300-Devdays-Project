@@ -1,0 +1,201 @@
+*{box-sizing: border-box;}
+
+body{
+    color: rgb(109, 107, 107);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.header-row {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+button {
+    border-radius: 1em;
+    cursor: pointer;    
+}
+
+.users{    
+    background-color:rgba(242, 238, 245, 0.938);
+    color: rgb(104, 3, 104);
+    margin-left: 2em;
+    border: none; 
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+}
+
+th, td {
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left; 
+    margin-top: -2em;      
+}
+
+td {
+    border-bottom: 1px solid rgb(228, 227, 227);
+}
+
+th{
+    background-color: rgb(245, 245, 245);
+}
+
+tr {
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.status  {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 0.5em;
+}
+
+.role {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 0.5em;
+}
+
+.employee-info{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.employee{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.name-img{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 1em;    
+}
+
+.name-img > p {
+    margin-top: -1em;
+}
+
+.active {
+    background-color: rgb(231, 240, 231);
+    color: green;
+    border-radius: 1em;
+    border: none;   
+}
+
+.customer-role{
+    background-color: white;
+    border: none;
+    color: rgb(109, 107, 107);
+}
+
+.customer-role > a {
+    text-decoration: none;
+    color: rgb(109, 107, 107);
+}
+
+.customer-email{
+    background-color: white;
+    border: none;
+}
+
+.customer-email > a {
+    text-decoration: none;
+    color: rgb(109, 107, 107);
+}
+
+.team_categories > button {
+    border: none;
+}
+
+.design {
+    background-color:rgba(242, 238, 245, 0.938);
+    color: rgb(104, 3, 104)
+}
+
+.product {
+    background-color:rgb(229, 247, 232);
+    color: rgb(21, 155, 165)
+}
+
+.marketing {
+    background-color:rgb(232, 235, 245);
+    color: rgb(21, 47, 165)
+}
+
+.trash-edit{
+    display: flex;
+    row-gap: -1em;
+    border: none;
+}
+
+.trash-edit > button {
+    border: none;
+    background-color: white;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.page-numbers > button {
+    padding: 1em;
+    background-color: white;
+    border: none; 
+} 
+
+#current-page {
+    border-radius: 0.5em;
+    background-color: rgb(242, 236, 248);
+    padding: 0.9em;
+}
+
+#previous {
+    border-color:rgb(228, 227, 227);
+    border-width: 0.05em;
+    padding: 1em;
+    gap: 1em;
+    background-color: white;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+#next {            
+    border-color:rgb(228, 227, 227);
+    border-width: 0.05em;
+    padding: 1em;
+    gap: 1em;
+    background-color: white;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;  
+}
+
+@media only screen and (max-width: 768px) { 
+   table {width: fit-content;}
+}
